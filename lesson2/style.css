@@ -1,3 +1,6 @@
+*{
+    text-align: center;
+}
 /*
 эти стили применяются ко всему элементам h1 на странице
 */
@@ -26,9 +29,10 @@ p {
 }
 /* селектор по id обладает наивысшим приоритетом */
 #heading {
-  color: darkorchid;
+  color: dark;
 }
 /* селектор для всех єлементов li внутри ol */
 ol > li{
     font-weight: bold;
+    text-align: left;
 }
