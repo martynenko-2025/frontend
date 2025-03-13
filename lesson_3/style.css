@@ -1,46 +1,53 @@
-/* фиксируем размеры бокса (все остальное будет включенно) */
-*{
-    box-sizing:border-box;
-}
-
-body{
-    /* убираем стандартные отстуаы у body */
+/* убирает стандартное поведение контейнеров при котором padding и border расширяют размер контейнера */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    /* убираем стандартные отступы у body */
     margin: 0px;
-}
-
-main{
-     /* внутренние отступы main контейнера */
-    padding: 0px 30px;
-}
-.box{
+  }
+  
+  main {
+    /* внутренние отступы main контейнера */
+    padding: 0px 20px;
+  }
+  
+  .box {
     width: 150px;
     height: 150px;
-    /* margin: 10px; */
-    border: 5px solid greenyellow;
-    margin: 10px 20px;
-    padding: 10px 20px;
+    border: 5px solid cyan;
     color: white;
-}
-.red-box{
-    background-color: rgb(211, 136, 162);
-}
-.blue-box{
-background-color: rgb(65, 65, 199);
-border: 10px dashed greenyellow;
-}
-header{
+    /* margin: 10px; */
+    padding: 20px;
+    margin: 10px 20px;
+  }
+  
+  .red-box {
+    background-color: rgb(255, 111, 111);
+  }
+  
+  .blue-box {
+    background-color: rgb(108, 108, 253);
+    border: 5px dashed greenyellow;
+  }
+  
+  header {
     height: 60px;
     background-color: orange;
-}
-/* для всех тегов span внутри p (параграфов) */
-p > span{
-    color: brown;
+  }
+  
+  /* для всех тегов span внутри p */
+  p > span {
+    color:  rgb(255, 111, 111);
     text-decoration: underline;
-}
-li {
+  }
+  
+  li {
     list-style: none;
-}
-li::before{
-    content: 🌟;
+  }
+  
+  li::before {
+    content: '⭐️';
     margin-right: 10px;
-}
+  }
