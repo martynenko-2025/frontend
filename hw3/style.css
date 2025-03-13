@@ -1,6 +1,10 @@
+body{
+    width: 600px;
+}
 p {
     background-color: rgb(200, 235, 200);
     border: 2px solid red;
+    
 }
 
 p > span{
