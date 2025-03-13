@@ -1,0 +1,28 @@
+body{
+    /* убираем стандартные отстуаы у body */
+    margin: 0px;
+}
+
+main{
+     /* внутренние отступы main контейнера */
+    padding: 0px 30px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    /* margin: 10px; */
+    border: 5px solid greenyellow;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    color: white;
+}
+.red-box{
+    background-color: rgb(211, 136, 162);
+}
+.blue-box{
+background-color: rgb(65, 65, 199);
+}
+header{
+    height: 60px;
+    background-color: orange;
+}
