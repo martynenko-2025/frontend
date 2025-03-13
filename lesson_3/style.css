@@ -1,3 +1,8 @@
+/* фиксируем размеры бокса (все остальное будет включенно) */
+*{
+    box-sizing:border-box;
+}
+
 body{
     /* убираем стандартные отстуаы у body */
     margin: 0px;
@@ -8,8 +13,8 @@ main{
     padding: 0px 30px;
 }
 .box{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     /* margin: 10px; */
     border: 5px solid greenyellow;
     margin: 10px 20px;
@@ -21,8 +26,21 @@ main{
 }
 .blue-box{
 background-color: rgb(65, 65, 199);
+border: 10px dashed greenyellow;
 }
 header{
     height: 60px;
     background-color: orange;
+}
+/* для всех тегов span внутри p (параграфов) */
+p > span{
+    color: brown;
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+}
+li::before{
+    content: 🌟;
+    margin-right: 10px;
 }
