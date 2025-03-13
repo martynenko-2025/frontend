@@ -23,8 +23,18 @@
     margin: 10px 20px;
   }
   
+
   .red-box {
     background-color: rgb(255, 111, 111);
+  }
+
+  .red-box:hover {
+    background-color: aqua;
+    cursor: pointer;
+  }
+
+  ul {
+    background-color: aquamarine;
   }
   
   .blue-box {
@@ -50,4 +60,8 @@
   li::before {
     content: '⭐️';
     margin-right: 10px;
+  }
+  
+  h1{
+    background-color: red;
   }

@@ -1,5 +1,10 @@
-body p {
-    background-color: rgb(200, 235, 200);
-    border: 2px red;
 
+
+p {
+    background-color: rgb(200, 235, 200);
+    border: 2px solid red;
+}
+
+p > span{
+    border: 2px solid blue;
 }
