@@ -16,7 +16,19 @@
     top: 0px;
     background-color: orange;
     height: 60px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
   }
+  header >i{
+    font-size: 40px;
+  }
+
+/* .fa-brands {
+  color: red !important;
+} */
   
   h1 {
     color: darkorange;
@@ -69,4 +81,4 @@
     h1 {
       font-size: 28px;
     }
-  }
+}
